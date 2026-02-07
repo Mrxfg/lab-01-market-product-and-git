@@ -1,7 +1,7 @@
 # Roles and Skills Mapping
 
-This document maps system components to technical roles involved in building
-and maintaining the product, and describes their responsibilities and skills.
+This document maps the main system components of the product to technical roles,
+and describes the responsibilities and skills required for each role.
 
 ## Components and roles
 
@@ -33,30 +33,35 @@ and maintaining the product, and describes their responsibilities and skills.
 ## Roles and responsibilities
 
 ### Backend Engineer
-Designs and implements server-side logic, APIs, and business rules.
-Ensures performance, scalability, and correctness of backend services.
+Responsible for designing, implementing, and maintaining backend services and APIs.
+Uses Git for version control, applies debugging skills to fix issues, and relies on
+networking fundamentals to ensure reliable communication between services.
 
 ### Mobile Engineer
 Develops and maintains mobile applications for iOS and Android platforms.
-Works closely with designers and backend engineers to deliver smooth user experiences.
+Uses Git to collaborate with the team, applies debugging skills to fix application
+errors, and communicates with backend services over network APIs.
 
 ### DevOps Engineer
-Builds and maintains CI/CD pipelines, deployment processes, and cloud infrastructure.
-Ensures reliable deployments, monitoring, and system availability.
+Manages cloud infrastructure, deployment pipelines, and monitoring systems.
+Uses Linux and command-line tools daily, applies networking knowledge to configure
+services, and ensures system reliability and scalability.
 
 ### QA Engineer
-Tests applications to identify bugs and ensure quality.
-Creates test plans, automated tests, and validates new features before release.
+Ensures product quality by designing and executing test cases.
+Uses debugging skills to identify defects, applies version control to manage test
+automation code, and collaborates closely with developers.
 
 ### Security Engineer
-Identifies and mitigates security risks in applications and infrastructure.
-Implements security best practices such as encryption, access control, and audits.
+Focuses on protecting applications and infrastructure from security threats.
+Applies security principles such as encryption and access control, analyzes system
+behavior using debugging tools, and reviews configurations for vulnerabilities.
 
 ## Common skills across roles
 
-- Git and version control
-- Linux and command-line tools
-- Networking fundamentals
-- Debugging and problem-solving
-- Basic understanding of security principles
-- Collaboration and communication skills
+- **Git and version control** — used by all engineers to collaborate on code changes.
+- **Linux and command-line tools** — essential for backend, DevOps, and security work.
+- **Networking fundamentals** — required to understand service communication and APIs.
+- **Debugging and problem-solving** — used across all roles to identify and fix issues.
+- **Security principles** — applied to protect user data and system infrastructure.
+- **Collaboration and communication skills** — necessary for effective teamwork.
