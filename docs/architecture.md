@@ -1,6 +1,4 @@
-## Product 
-
-
+## Product Choice
 **Product:** Telegram  
 **Website:** https://telegram.org  
 
@@ -69,3 +67,4 @@ replication to improve reliability and availability.
 encryption managed at scale?
 - What specific caching strategies are used to reduce message delivery
 latency for users located in different geographic regions?
+
