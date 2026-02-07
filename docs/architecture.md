@@ -2,7 +2,9 @@
 
 **Product:** Telegram  
 **Website:** https://telegram.org  
-**Description:** Telegram is a cloud-based instant messaging platform focused on speed, security, and scalability.
+
+Telegram is a cloud-based instant messaging platform designed for fast,
+secure, and reliable communication between users at a global scale.
 
 ## Main components
 
@@ -10,13 +12,25 @@
 
 [Component Diagram Code](../docs/diagrams/src/telegram/component-diagram.puml)
 
-**Selected components:**
+1. **Client Applications**  
+Client applications include mobile and desktop apps that allow users to
+send messages, media files, and interact with chats and channels.
 
-1. **Client Applications** – Mobile and desktop apps that allow users to send messages and media.
-2. **API Gateway** – Entry point for client requests, routing them to backend services.
-3. **Authentication Service** – Handles user login, sessions, and authorization.
-4. **Message Service** – Processes, stores, and delivers messages between users.
-5. **Media Storage** – Stores images, videos, and other shared files.
+2. **API Gateway**  
+The API Gateway acts as the main entry point for all client requests and
+routes them to the appropriate backend services.
+
+3. **Authentication Service**  
+This service manages user authentication, session validation, and access
+control to ensure only authorized users can access the system.
+
+4. **Message Service**  
+The Message Service processes incoming messages, temporarily stores them
+if necessary, and ensures reliable delivery to recipient users.
+
+5. **Media Storage**  
+Media Storage is responsible for storing images, videos, and documents
+uploaded by users and making them available for download when needed.
 
 ## Data flow
 
@@ -24,8 +38,11 @@
 
 [Sequence Diagram Code](../docs/diagrams/src/telegram/sequence-diagram.puml)
 
-When a user sends a message, the client application sends the request to the API Gateway.
-The request is authenticated, processed by the Message Service, stored if needed, and delivered to the recipient.
+When a user sends a message, the client application sends the request to
+the API Gateway. The request is authenticated by the Authentication
+Service and then forwarded to the Message Service. The Message Service
+stores message metadata, delivers the message to the recipient, and
+returns a delivery status back to the sender.
 
 ## Deployment
 
@@ -33,9 +50,21 @@ The request is authenticated, processed by the Message Service, stored if needed
 
 [Deployment Diagram Code](../docs/diagrams/src/telegram/deployment-diagram.puml)
 
-Telegram services are deployed across distributed cloud infrastructure with load balancers, application servers, and storage systems.
+Telegram backend services are deployed across distributed cloud
+infrastructure. Load balancers distribute traffic between application
+servers, while databases and media storage systems run on dedicated
+storage clusters to ensure scalability and fault tolerance.
 
 ## Assumptions
 
-- I assume Telegram uses horizontal scaling to handle millions of concurrent users.
-- I assume media files are stored in distributed storage with redundancy.
+- I assume Telegram uses horizontal scaling to handle millions of
+concurrent users across different regions.
+- I assume media files are stored in a distributed storage system with
+replication to improve reliability and availability.
+
+## Open questions
+
+- How are secret chats implemented on the backend, and how is end-to-end
+encryption managed at scale?
+- What specific caching strategies are used to reduce message delivery
+latency for users located in different geographic regions?
