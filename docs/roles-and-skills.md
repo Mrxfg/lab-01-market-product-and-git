@@ -68,3 +68,50 @@ behavior using debugging tools, and reviews configurations for vulnerabilities.
 - **Debugging and problem-solving** — used across all roles to identify and fix issues.
 - **Security principles** — applied to protect user data and system infrastructure.
 - **Collaboration and communication skills** — necessary for effective teamwork.
+
+## My chosen role
+
+### Role
+Backend Developer
+
+### Skills I already have
+- Basic understanding of Git and version control
+- Fundamental programming knowledge (C++ / Python)
+- Understanding of basic data structures and algorithms
+- Basic knowledge of HTTP and client-server architecture
+
+### Skills I clearly lack
+- Experience with backend frameworks (e.g., Spring, Django, FastAPI)
+- Practical REST API design experience
+- Authentication and authorization mechanisms (JWT, OAuth)
+- Hands-on experience with databases in real projects
+
+
+## Job market snapshot
+
+### Skills that appear in several postings
+- REST API development
+- SQL and relational databases
+- Git and version control
+- Linux basics
+- Problem-solving skills
+
+### Skills specific to a single posting
+- Docker and containerization
+- Kubernetes
+- Message brokers (Kafka / RabbitMQ)
+- Cloud platforms (AWS / GCP)
+
+
+## Personal reflection
+
+I chose the Backend Developer role because I enjoy working with logic,
+problem-solving, and understanding how systems work behind the scenes.
+After comparing my current skills with market requirements, I see that
+I have a solid theoretical foundation but lack practical experience with
+backend frameworks and real-world projects.
+
+During this semester, I want to focus on learning REST API development
+and working with databases, because these skills appear in almost every
+backend job posting and are essential for professional growth.
+
