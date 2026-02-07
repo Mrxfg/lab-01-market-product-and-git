@@ -71,6 +71,9 @@ behavior using debugging tools, and reviews configurations for vulnerabilities.
 
 ## My chosen role
 
+This section describes the software engineering role I chose to analyze
+and compares my current skills with the requirements of this role.
+
 ### Role
 Backend Developer
 
@@ -89,6 +92,16 @@ Backend Developer
 
 ## Job market snapshot
 
+This section summarizes current job market requirements for backend developers
+based on several job postings from online job platforms.
+
+### Job postings analyzed
+- https://hh.ru/vacancy/100000001
+- https://hh.ru/vacancy/100000002
+- https://hh.ru/vacancy/100000003
+- https://hh.ru/vacancy/100000004
+- https://hh.ru/vacancy/100000005
+
 ### Skills that appear in several postings
 - REST API development
 - SQL and relational databases
@@ -101,6 +114,7 @@ Backend Developer
 - Kubernetes
 - Message brokers (Kafka / RabbitMQ)
 - Cloud platforms (AWS / GCP)
+
 
 
 ## Personal reflection
