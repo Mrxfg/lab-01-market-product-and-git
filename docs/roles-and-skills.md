@@ -92,53 +92,13 @@ Backend Developer
 
 ## Job market snapshot
 
-This section analyzes current backend developer job postings
-to understand common and unique market requirements.
+This section contains job posting links used for market analysis.
 
-### Job posting 1
-**Role:** Backend Developer  
-**Link:** https://hh.ru/vacancy/100000001  
-**Key skills:**
-- REST API development
-- SQL databases
-- Git
-- Linux basics
-
-### Job posting 2
-**Role:** Junior Backend Developer  
-**Link:** https://hh.ru/vacancy/100000002  
-**Key skills:**
-- Python
-- HTTP fundamentals
-- Databases
-- Version control
-
-### Job posting 3
-**Role:** Backend Engineer  
-**Link:** https://hh.ru/vacancy/100000003  
-**Key skills:**
-- Java or Kotlin
-- Spring framework
-- SQL
-- REST APIs
-
-### Job posting 4
-**Role:** Software Engineer (Backend)  
-**Link:** https://hh.ru/vacancy/100000004  
-**Key skills:**
-- Microservices
-- Docker
-- REST APIs
-- Databases
-
-### Job posting 5
-**Role:** Backend Developer  
-**Link:** https://hh.ru/vacancy/100000005  
-**Key skills:**
-- Node.js
-- Express
-- MongoDB
-- Git
+https://innopolis.hh.ru/vacancy/130254735?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1136017&utm_local_campaign=1613356&utm_content=1183686
+https://innopolis.hh.ru/vacancy/130254736?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1136017&utm_local_campaign=1613356&utm_content=1183687
+https://innopolis.hh.ru/vacancy/130254737?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1136017&utm_local_campaign=1613356&utm_content=1183688
+https://innopolis.hh.ru/vacancy/130254738?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1136017&utm_local_campaign=1613356&utm_content=1183689
+https://innopolis.hh.ru/vacancy/130254739?utm_medium=cpc_hh&utm_source=clickmehhru&utm_campaign=1136017&utm_local_campaign=1613356&utm_content=1183690
 
 ### Skills that appear in several postings
 - REST API development
