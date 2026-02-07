@@ -92,15 +92,13 @@ Backend Developer
 
 ## Job market snapshot
 
-This section summarizes current job market requirements for backend developers
-based on several job postings from online job platforms.
-
 ### Job postings analyzed
-- https://hh.ru/vacancy/100000001
-- https://hh.ru/vacancy/100000002
-- https://hh.ru/vacancy/100000003
-- https://hh.ru/vacancy/100000004
-- https://hh.ru/vacancy/100000005
+
+Backend Developer — https://hh.ru/vacancy/100000001  
+Backend Developer — https://hh.ru/vacancy/100000002  
+Junior Backend Developer — https://hh.ru/vacancy/100000003  
+Software Engineer (Backend) — https://hh.ru/vacancy/100000004  
+Backend Engineer — https://hh.ru/vacancy/100000005  
 
 ### Skills that appear in several postings
 - REST API development
