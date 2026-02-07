@@ -32,6 +32,9 @@ and describes the responsibilities and skills required for each role.
 
 ## Roles and responsibilities
 
+This section describes the main technical roles involved in the product
+and explains what responsibilities each role has within the system.
+
 ### Backend Engineer
 Responsible for designing, implementing, and maintaining backend services and APIs.
 Uses Git for version control, applies debugging skills to fix issues, and relies on
